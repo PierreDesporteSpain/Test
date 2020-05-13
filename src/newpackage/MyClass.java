@@ -70,15 +70,9 @@ public class MyClass {
    
         String MainWindow = driver.getWindowHandle();
         System.out.println(MainWindow);
-        
-        List<WebElement> listOfWebElement = driver.findElements(By.xpath("//*[@class='elements__Container-sc-13qinla-0 cublau Button__styledButton-ubycnm-0 elements__ButtonModal-sc-165lwxk-1 LzYbg']//*[text()='Découvrir']"));
-        System.out.println("Number of elements:" + listOfWebElement.size());
-        
-        for (int i = 0; i < listOfWebElement.size(); i++) {
-            System.out.println(listOfWebElement.get(i).getAttribute("class"));
-        }
 
-       // driver.findElement(By.linkText("Découvrir")).click();
+        driver.findElement(By.linkText("Découvrir")).click(); //Try to click
+        
 
        
         //close
