@@ -80,14 +80,6 @@ public class MyClass {
 
        // driver.findElement(By.linkText("Découvrir")).click();
 
-        //WebElement button = driver.findElement(By.xpath("//*[@class='elements__Container-sc-13qinla-0 cublau Button__styledButton-ubycnm-0 elements__ButtonModal-sc-165lwxk-1 LzYbg']//*[text()='Découvrir']"));
-        //elements__Container-sc-13qinla-0 cublau Button__styledButton-ubycnm-0 elements__ButtonModal-sc-165lwxk-1 LzYbg
-        //elements__Container-sc-13qinla-0 cublau Button__styledButton-ubycnm-0 elements__ButtonModal-sc-165lwxk-1 LzYbg
-        
-        WebElement button = driver.findElement(By.xpath("//html/body/div[3]/div/dialog/div[3]/div[2]/button"));
-        //html/body/div[1]/section/div[1]/div/div/div/div[1]/div/div/div/div/div[3]/div[1]/div/h4[1]/b
-        System.out.println(button.getText());
-        
        
         //close
 		System.out.println("TestFinish");
